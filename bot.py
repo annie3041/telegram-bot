@@ -6,7 +6,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Я работаю 🙂")
 
 # Создание приложения бота
-app = ApplicationBuilder().token("YOUR_TELEGRAM_TOKEN").build()
+app = ApplicationBuilder().token(8560454829:AAFK3krvYoAXiRR9acehVg8V4F9DKwdk6mM).build()
 app.add_handler(CommandHandler("start", start))
 
 # Запуск бота
